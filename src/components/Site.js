@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Form } from 'react-bootstrap';
+import { Button, Form, Alert } from 'react-bootstrap';
 
 class Site extends React.Component{
   
@@ -36,6 +36,10 @@ class Site extends React.Component{
                     <Form.Text className="text-muted"> 
                             powered by youtube-dl
                     </Form.Text>
+                    <Form.Text className="text-muted"> 
+                           created by <Alert.Link href="https://github.com/stwalez">stwalez</Alert.Link>
+                    </Form.Text>
+                    
                 </Form.Group>
                     <Button as="input" type='submit' variant='primary' size='sm' value= { (loading) ? 'Downloading...' : 'Download'} ></Button>
             
