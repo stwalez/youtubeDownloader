@@ -16,7 +16,7 @@ class App extends Component {
 		}
 	}
 
-serverAddress = 'http://damp-depths-14337.herokuapp.com/';
+serverAddress = 'https://damp-depths-14337.herokuapp.com/';
 //serverAddress = 'http://node23.codenvy.io:43264/';
 callHelperPluralSight = () => {(
         this.setState({
